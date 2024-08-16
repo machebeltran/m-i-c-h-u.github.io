@@ -30,13 +30,12 @@
     flex-wrap: nowrap;
     flex-direction: column;
     margin-top: 150px;
-    justify-content: center;
+    
   }
 
   .infocontainer, .infocontainer2 {
     background-color: rgba(75, 39, 53, 0.808);
-    background-position: center;
-    width: auto;
+    width: 100%;
     text-align: center;
     padding: 40px;
     display: flex;
@@ -48,6 +47,7 @@
     font-size: auto;
     color: rgb(248, 183, 199);
     position: relative;
+    object-fit: cover;
   }
 
   .infocontainer2 {
@@ -101,4 +101,8 @@
     text-align: start;
   }
 
+   .carousel {
+    align-content: center;
+  }
 
+ 
